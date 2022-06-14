@@ -23,8 +23,6 @@ public class PrimePalindromeAnagram {
 		 }  
 		 public static boolean Armstrong(int num) {  
 		  int num1 = num;  
-		  /* Converting Integer to String. It'll help to find number of 
-		  digits in the Integer by using length() */  
 		  String str = Integer.toString(num);  
 		  int rem;  
 		  int result = 0;  
